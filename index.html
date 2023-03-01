@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Prasad's Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Excahnge Rate Converter</h1>
+
+    <input type="number" id="amount" placeholder="Enter in amount" />
+    <span>From:</span>
+    <select id="haveCurrency">
+      <option value="INR">INR</option>
+      <option value="USD">USD</option>
+      <option value="GBP">GBP</option>
+      <option value="JPY">JPY</option>
+    </select>
+    <span>To:</span>
+    <select id="wantCurrency">
+      <option value="USD">USD</option>
+      <option value="INR">INR</option>
+      <option value="GBP">GBP</option>
+      <option value="JPY">JPY</option>
+    </select>
+    <button id="convert">Convert Currency</button>
+
+    <div id="result"></div>
+  </body>
+  <script src="exchange.js"></script>
+</html>
